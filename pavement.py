@@ -38,7 +38,7 @@ entry_points="""
 setup(
     name='ebcm',
     version=version,
-    description='<On-line description>',
+    description='Content Management bits opensourced by EveryBlock',
     long_description=long_description,
     classifiers=classifiers,
     keywords='',
@@ -76,3 +76,9 @@ options(
 @needs('generate_setup', 'minilib', 'setuptools.command.sdist')
 def sdist():
     """Overrides sdist to make sure that our setup.py is generated."""
+
+#@ todo
+# install pip
+# install django
+# http://initd.org/pub/software/psycopg/psycopg2-2.0.11.tar.gz
+# rewrite setup.cfg to observe local path??
