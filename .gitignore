@@ -6,3 +6,5 @@ build/*
 docs/build/doctrees/*
 src/ebcm.egg-info/*
 *.pyc
+*.egg-info/*
+*~
