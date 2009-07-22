@@ -1,0 +1,8 @@
+lib/*
+bin/*
+dist/*
+include/*
+build/*
+docs/build/doctrees/*
+src/ebcm.egg-info/*
+*.pyc
